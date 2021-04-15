@@ -91,7 +91,7 @@
                 $files = glob('laws/*');
                 foreach($files as $file){
                     if($file != '.' and $file != '..'){
-                        echo'<a href="./'.$file.'" style="font-family: SF; font-size: 20px; color: black; text-decoration: none;">• '.substr($file, 5).'</a>';
+                        echo'<a href="./'.$file.'" style="font-family: SF; font-size: 20px; color: black; text-decoration: none;">• '.pathinfo($file, PATHINFO_FILENAME).'</a>';
                         echo'<p> </p>';
                     }
                 }
