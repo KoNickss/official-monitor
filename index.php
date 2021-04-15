@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
     <style>
+		body {
+			background-image: url('0007.jpg');
+			margin: 20px;
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;
+		}
         .tab {
         overflow: hidden;
         border: 1px solid #222222;
@@ -59,7 +66,7 @@
         </div>
           
         <!-- Tab content -->
-        <div id="London" class="tabcontent">
+        <div id="London" class="tabcontent" style="background-color: white;">
             <p style="font-family: SF; font-size: 45px;">The Republic of Romania</p>
             <p style="font-family: SF; font-size: 40px;">Official news publication of the Romanian Republic Discord Server</p>
             
@@ -77,7 +84,7 @@
             ?>
         </div>
           
-        <div id="Paris" class="tabcontent">
+        <div id="Paris" class="tabcontent" style="background-color: white;">
             <p style="font-family: SF; font-size: 45px;">The Republic of Romania</p>
             <p style="font-family: SF; font-size: 40px;">Official Monitor of Laws currently acting in the republic</p>
             <?php
