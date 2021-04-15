@@ -3,7 +3,7 @@
     <style>
 		body {
 			background-image: url('0007.jpg');
-			margin: 20px;
+			margin: 40px;
   			background-repeat: no-repeat;
   			background-attachment: fixed;
   			background-size: cover;
@@ -45,7 +45,8 @@
         display: none;
         padding: 6px 12px;
         border: 1px solid #ccc;
-        border-top: none;
+		border-top: none;
+		opacity: .6;
         }
         .tabcontent {
         animation: fadeEffect 1s; /* Fading effect takes 1 second */
@@ -54,7 +55,7 @@
         /* Go from zero to full opacity */
         @keyframes fadeEffect {
         from {opacity: 0;}
-        to {opacity: 1;}
+        to {opacity: .6;}
         }
     </style>
     <title>Official Monitor</title>
