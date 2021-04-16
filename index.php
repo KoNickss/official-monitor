@@ -96,7 +96,7 @@
                     }
                 }
             ?>
-            <iframe style="display: none;" id="lawspdf" src="." height=1500px width=100%></iframe>
+            <iframe style="display: none;" id="lawspdf" src="." height=1200px width=100% style="opacity: 1;"></iframe>
         </div>
     </body>
     <script>
