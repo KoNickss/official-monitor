@@ -77,7 +77,7 @@
                 });
                 foreach($files as $file){
                     if($file != '.' and $file != '..'){
-                        echo'<p style="font-family: SF; font-size: 20px; color: black; text-decoration: none;" id="'.$file.'">• '.pathinfo($file, PATHINFO_FILENAME).'</p>';
+                        echo'<a style="font-family: SF; font-size: 20px; color: black; text-decoration: none;" href="'.$file.'">• '.pathinfo($file, PATHINFO_FILENAME).'</a>';
                         echo'<p> </p>';
                     }
                 }
@@ -96,7 +96,7 @@
                     }
                 }
             ?>
-            <iframe style="display: none;" id="lawspdf" src="." height=1200px width=100% style="opacity: 1;"></iframe>
+            <iframe style="display: none;" id="lawspdf" src="." height=1200px width=100%></iframe>
         </div>
     </body>
     <script>
