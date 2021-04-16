@@ -70,33 +70,12 @@
             <p style="font-family: SF; font-size: 45px;">The Republic</p>
             <p style="font-family: SF; font-size: 40px;">Official news publication of The Republic political Discord Server</p>
             
-            <?php
-                $files = glob('news/*');
-                usort($files, function($a, $b) {
-                    return filemtime($b) - filemtime($a);
-                });
-                foreach($files as $file){
-                    if($file != '.' and $file != '..'){
-                        echo'<p style="font-family: SF; font-size: 20px; color: black; text-decoration: none;" id="'.$file.'">• '.pathinfo($file, PATHINFO_FILENAME).'</p>';
-                        echo'<p> </p>';
-                    }
-                }
-            ?>
-        </div>
+            <p style="font-family: SF; font-size: 20px; color: black; text-decoration: none;" id="news/Deployment of the Official Monitor.html">• Deployment of the Official Monitor</p><p> </p><p style="font-family: SF; font-size: 20px; color: black; text-decoration: none;" id="news/Discord Invite Link.html">• Discord Invite Link</p><p> </p>        </div>
           
         <div id="Paris" class="tabcontent" style="background-color: white;">
             <p style="font-family: SF; font-size: 45px;">The Republic</p>
             <p style="font-family: SF; font-size: 40px;">Official Monitor of Laws currently acting in the republic</p>
-            <?php
-                $files = glob('laws/*');
-                foreach($files as $file){
-                    if($file != '.' and $file != '..'){
-                        echo'<p id="'.$file.'" style="font-family: SF; font-size: 20px; color: black; text-decoration: none; cursor: pointer;">• '.pathinfo($file, PATHINFO_FILENAME).'</p>';
-                        echo'<p> </p>';
-                    }
-                }
-            ?>
-            <iframe style="display: none;" id="lawspdf" src="." height=500px width=100%></iframe>
+            <p id="laws/1-The Rights of Man.pdf" style="font-family: SF; font-size: 20px; color: black; text-decoration: none; cursor: pointer;">• 1-The Rights of Man</p><p> </p><p id="laws/2-The Constitution of The Republic.pdf" style="font-family: SF; font-size: 20px; color: black; text-decoration: none; cursor: pointer;">• 2-The Constitution of The Republic</p><p> </p><p id="laws/3-Universal Act of Law.pdf" style="font-family: SF; font-size: 20px; color: black; text-decoration: none; cursor: pointer;">• 3-Universal Act of Law</p><p> </p>            <iframe style="display: none;" id="lawspdf" src="." height=500px width=100%></iframe>
         </div>
     </body>
     <script>
@@ -114,16 +93,17 @@
         evt.currentTarget.className += " active";
         }
         document.getElementById("default").click();
-        <?php
-            $files = glob('laws/*');
-            foreach($files as $file){
-                if($file != '.' and $file != '..'){
-                    echo'document.getElementById("'.$file.'").onclick = function(event){'."\n";
-                    echo'  document.getElementById("lawspdf").src = "/'.$file.'";'."\n";
-                    echo'  document.getElementById("lawspdf").style.display = "block";'."\n";
-                    echo'}'."\n";
-                }
-            }
-        ?>
+        document.getElementById("laws/1-The Rights of Man.pdf").onclick = function(event){
+  document.getElementById("lawspdf").src = "/laws/1-The Rights of Man.pdf";
+  document.getElementById("lawspdf").style.display = "block";
+}
+document.getElementById("laws/2-The Constitution of The Republic.pdf").onclick = function(event){
+  document.getElementById("lawspdf").src = "/laws/2-The Constitution of The Republic.pdf";
+  document.getElementById("lawspdf").style.display = "block";
+}
+document.getElementById("laws/3-Universal Act of Law.pdf").onclick = function(event){
+  document.getElementById("lawspdf").src = "/laws/3-Universal Act of Law.pdf";
+  document.getElementById("lawspdf").style.display = "block";
+}
     </script>
 </html>
