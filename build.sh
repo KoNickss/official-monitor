@@ -1,12 +1,13 @@
 #!/bin/bash
 php index.php > index.html
-for folder in $(ls laws)
+cd laws
+for folder in $(ls -d */)
 do
-	cd laws/$folder
+	cd $folder
 	cp ../../folder.php ./index.php
 	php index.php > index.html
 	rm index.php
-	cd ../..
+	cd ..
 	echo "--------------------------------- PHP ---------------------------------------------"
 	echo "Done converting $folder to bootstrap"
 	echo "-----------------------------------------------------------------------------------"
