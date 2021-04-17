@@ -121,6 +121,7 @@
                     echo'document.getElementById("'.$file.'").onclick = function(event){'."\n";
                     echo'  document.getElementById("lawspdf").src = "'.$file.'#toolbar=0";'."\n";
                     echo'  document.getElementById("lawspdf").style.display = "block";'."\n";
+                    echo'  document.getElementById("lawspdf").height = document.getElementById("lawspdf").contentWindow.document.body.scrollHeight + "px";'."\n";
                     echo'}'."\n";
                 }
             }
