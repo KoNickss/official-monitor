@@ -122,7 +122,7 @@
                     echo'  if(document.getElementById("lawspdf").src === "'.$file.'") document.getElementById("lawspdf").style.display = "none";'."\n";
                     echo'  document.getElementById("lawspdf").src = "'.$file.'#toolbar=0&scrollbar=0";'."\n";
                     echo'  document.getElementById("lawspdf").style.display = "block";'."\n";
-                    echo'  document.getElementById("lawspdf").style.height = "auto";'."\n";
+                    #echo'  document.getElementById("lawspdf").style.height = "auto";'."\n";
                     echo'}'."\n";
                 }
             }
