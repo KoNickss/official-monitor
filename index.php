@@ -96,7 +96,7 @@
                     }
                 }
             ?>
-            <iframe style="display: none;" id="lawspdf" src="." height=1500px width=100%></iframe>
+            <iframe style="display: none; overflow: auto;" id="lawspdf" src="." height=1500px width=100%></iframe>
         </div>
     </body>
     <script>
@@ -119,9 +119,9 @@
             foreach($files as $file){
                 if($file != '.' and $file != '..'){
                     echo'document.getElementById("'.$file.'").onclick = function(event){'."\n";
+                    echo'  if(document.getElementById("lawspdf").src === "'.$file.'") document.getElementById("lawspdf").style.display = "none";'."\n";
                     echo'  document.getElementById("lawspdf").src = "'.$file.'#toolbar=0";'."\n";
                     echo'  document.getElementById("lawspdf").style.display = "block";'."\n";
-                    echo'  document.getElementById("lawspdf").height = document.getElementById("lawspdf").contentWindow.document.body.scrollHeight + "px";'."\n";
                     echo'}'."\n";
                 }
             }
