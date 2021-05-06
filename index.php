@@ -31,6 +31,12 @@
         }
         @font-face {
 
+        font-family: 'SF2';
+        src: url('gidole.ttf');
+
+        }
+        @font-face {
+
         font-family: 'Md';
         src: url('carta.ttf');
 
@@ -115,24 +121,25 @@
     <title>Official Monitor</title>
 	<body id="body">
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF; font-size: 30px; color: white" src="logo.png">Home</button>
-            <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF; font-size: 30px; color: white">News</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris'); openSmall();" style="font-family: SF; font-size: 30px; color: white;">Laws</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF; font-size: 30px; color: white; font-weight: 400;" src="logo.png">Home</button>
+            <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF; font-size: 30px; color: white; font-weight: 400;">News</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris'); openSmall();" style="font-family: SF; font-size: 30px; color: white; font-weight: 400;">Laws</button>
         </div>
           
         <!-- Tab content -->
         <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: white; animation: none;">
-        <div style="margin-left: 350px; margin-right: 350px;">
+        <div id="tokyobox" style="margin-left: 350px; margin-right: 350px;">
             
             <img src="logo.png" style="height: 100px;"> <p style="font-family: Md; font-size: 25px;">The Republic's Official Monitor</p>
             <p style="font-size: 50px;"></p>
             <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">About us</p>
             <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by parlament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
+            
             <p style="font-size: 50px;"> </p>
             <div class="container">
                 <img src="justice.png" width=100%>
                 <p style="font-family: SF; font-size: 25px; background-color: black; color: white;" class="centered">Help fight corruption. Make an informed choice when voting. Find party info below.</p>
-                <button class="color-change" onclick="openCity(event, 'Bucharest')">Party Info</button>
+                <button class="color-change" onclick="openCity(event, 'Bucharest')" style="font-family: SF2;">Party Info</button>
 
             </div>
         </div>
@@ -179,6 +186,10 @@
         </div>
     </body>
     <script>
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+            document.getElementById("tokyobox").style.marginLeft = "0";
+            document.getElementById("tokyobox").style.marginRight = "0";
+        }
         function otherTokyos(){
             document.getElementById('Tokyo2').style.display = "block";
             document.getElementById('Tokyo3').style.display = "block";
