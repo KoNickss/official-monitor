@@ -161,9 +161,8 @@
             <spacer height=50px> </spacer>
             <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
             <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 7 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
-            
-
-
+            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Am I welcome here?</p>
+            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Absolutely, we try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
 
 
             <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
@@ -209,10 +208,10 @@
     </body>
     <script>
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-            document.getElementById("tokyobox").style.marginLeft = "10";
-            document.getElementById("tokyobox").style.marginRight = "10";
-            document.getElementById("tokyobox2").style.marginLeft = "10";
-            document.getElementById("tokyobox2").style.marginRight = "10";
+            document.getElementById("tokyobox").style.marginLeft = "0";
+            document.getElementById("tokyobox").style.marginRight = "0";
+            document.getElementById("tokyobox2").style.marginLeft = "0";
+            document.getElementById("tokyobox2").style.marginRight = "0";
         }
         function otherTokyos(){
             document.getElementById('Tokyo2').style.display = "block";
