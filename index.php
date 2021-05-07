@@ -15,7 +15,7 @@
         }
         .centered {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         }
@@ -70,7 +70,7 @@
 		opacity: .8;
         }
         .tabcontent {
-        animation: fadeEffect 2s; /* Fading effect takes 1 second */
+        animation: fadeEffect 1s; /* Fading effect takes 1 second */
         }
         .hometrt {
             animation: hometr 0.5s;
@@ -133,36 +133,36 @@
             
             <img src="logo.png" style="height: 100px;"> <p style="font-family: Md; font-size: 25px;">The Republic's Official Monitor</p>
             <p style="font-size: 50px;"></p>
-            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">About us</p>
-            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by parlament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
+            <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">About us</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by parlament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
             
             <p style="font-size: 50px;"> </p>
             <div class="container">
                 <img src="justice.png" width=100%>
                 <p style="font-family: SF; font-size: 25px; background-color: black; color: white;" class="centered">Help fight corruption. Make an informed choice when voting. Find party info below.</p>
-                <button class="color-change" onclick="openCity(event, 'Bucharest')" style="font-family: SF2;">Party Info</button>
+                <button class="color-change" onclick="openCity(event, 'Bucharest'); openSmall()" style="font-family: SF2;">Party Info</button>
 
             </div>
             <p style="font-size: 50px;"> </p>
-            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">What country do we simulate?</p>
-            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Romania. We chose Romania because of it's interesting international relationships and geographical location as well as the many expansion opportunities in infrastructure allowing the simulation to progress.</p>
-            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe. It shares land borders with Bulgaria to the south, Ukraine to the north, Hungary to the west, Serbia to the southwest, and Moldova to the east and has its opening to the Black Sea. It has a predominantly temperate-continental climate. With a total area of 238,397 sq km (92,046 sq mi), Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union, having approximately 19.3 million inhabitants (as of 2020). Its capital and largest city is Bucharest. Other major urban areas include Cluj-Napoca, Timișoara, Iași, Constanța, Craiova, Brașov, and Galați.</p>
+            <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">What country do we simulate?</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Romania. We chose Romania because of it's interesting international relationships and geographical location as well as the many expansion opportunities in infrastructure allowing the simulation to progress.</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe. It shares land borders with Bulgaria to the south, Ukraine to the north, Hungary to the west, Serbia to the southwest, and Moldova to the east and has its opening to the Black Sea. It has a predominantly temperate-continental climate. With a total area of 238,397 sq km (92,046 sq mi), Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union, having approximately 19.3 million inhabitants (as of 2020). Its capital and largest city is Bucharest. Other major urban areas include Cluj-Napoca, Timișoara, Iași, Constanța, Craiova, Brașov, and Galați.</p>
             <p style="font-size: 50px;"> </p>
         </div>
         </div>
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
-            <p style="font-size: 100px;">test2</p>
+            <p style="font-size: 150px;">test2</p>
         </div>
         <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: white; animation: none;">
         <div id="tokyobox2" style="margin-left: 350px; margin-right: 350px;">
             <p style="font-size: 50px;"> </p>
-            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Is my ideology welcome here?</p>
-            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
+            <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Is my ideology included?</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
             <spacer height=50px> </spacer>
-            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
-            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 7 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
-            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Am I welcome here?</p>
-            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Absolutely, we try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
+            <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 7 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
+            <p class="info" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Am I welcome here?</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Absolutely, we try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
 
 
             <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
@@ -202,20 +202,36 @@
         </div>
 
 		<div id="Bucharest" class="tabcontent" style="background-color: white;">
-			<p>NLA</p>	
-			<p> </p>
+            <img src=nla.png height=100px>
+			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">NLA</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The National Liberal Alliance will
+                pursue classical-liberal
+                policy, based on individual
+                freedoms, national identity and
+                unity of the Romanian people.
+            </p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Classical Liberal, LibRight, Right-wing</p>
+            <a href="https://drive.google.com/file/d/1IM4vL-LRqBeSqDmvLwLk14is-WmX-tqJ/view?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
 		</div>
     </body>
     <script>
         console.log('website started');
         function mobileDetect(){
-        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-            console.log('mobile detected');
-            document.getElementById("tokyobox").style.marginLeft = "50px";
-            document.getElementById("tokyobox").style.marginRight = "50px";
-            document.getElementById("tokyobox2").style.marginLeft = "50px";
-            document.getElementById("tokyobox2").style.marginRight = "50px";
-        }
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                console.log('mobile detected');
+                document.getElementById("tokyobox").style.marginLeft = "50px";
+                document.getElementById("tokyobox").style.marginRight = "50px";
+                document.getElementById("tokyobox2").style.marginLeft = "50px";
+                document.getElementById("tokyobox2").style.marginRight = "50px";
+                tabcontent = document.getElementsByClassName("info");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.fontSize = "20px";
+                }
+                tabcontent2 = document.getElementsByClassName("infot");
+                for (i = 0; i < tabcontent2.length; i++) {
+                    tabcontent2[i].style.fontSize = "30px";
+                }
+            }
         }      
         function otherTokyos(){
             document.getElementById('Tokyo2').style.display = "block";
