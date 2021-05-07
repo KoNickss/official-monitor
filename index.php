@@ -119,7 +119,7 @@
         }
     </style>
     <title>Official Monitor</title>
-	<body id="body">
+	<body id="body" onload="mobileDetect()">
         <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;" src="logo.png">Home</button>
             <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;">News</button>
@@ -207,12 +207,16 @@
 		</div>
     </body>
     <script>
+        console.log('website started');
+        function mobileDetect(){
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-            document.getElementById("tokyobox").style.marginLeft = "0";
-            document.getElementById("tokyobox").style.marginRight = "0";
-            document.getElementById("tokyobox2").style.marginLeft = "0";
-            document.getElementById("tokyobox2").style.marginRight = "0";
+            console.log('mobile detected');
+            document.getElementById("tokyobox").style.marginLeft = "50px";
+            document.getElementById("tokyobox").style.marginRight = "50px";
+            document.getElementById("tokyobox2").style.marginLeft = "50px";
+            document.getElementById("tokyobox2").style.marginRight = "50px";
         }
+        }      
         function otherTokyos(){
             document.getElementById('Tokyo2').style.display = "block";
             document.getElementById('Tokyo3').style.display = "block";
