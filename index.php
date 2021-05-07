@@ -121,9 +121,10 @@
     <title>Official Monitor</title>
 	<body id="body">
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF; font-size: 30px; color: white; font-weight: 400;" src="logo.png">Home</button>
-            <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF; font-size: 30px; color: white; font-weight: 400;">News</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris'); openSmall();" style="font-family: SF; font-size: 30px; color: white; font-weight: 400;">Laws</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;" src="logo.png">Home</button>
+            <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;">News</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris'); openSmall();" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;">Laws</button>
+            <button class="tablinks" onclick="openCity(event, 'Bucharest'); openSmall();" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;">Party Info</button>
         </div>
           
         <!-- Tab content -->
@@ -142,15 +143,31 @@
                 <button class="color-change" onclick="openCity(event, 'Bucharest')" style="font-family: SF2;">Party Info</button>
 
             </div>
+            <p style="font-size: 50px;"> </p>
+            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">What country do we simulate?</p>
+            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Romania. We chose Romania because of it's interesting international relationships and geographical location as well as the many expansion opportunities in infrastructure allowing the simulation to progress.</p>
+            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe. It shares land borders with Bulgaria to the south, Ukraine to the north, Hungary to the west, Serbia to the southwest, and Moldova to the east and has its opening to the Black Sea. It has a predominantly temperate-continental climate. With a total area of 238,397 sq km (92,046 sq mi), Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union, having approximately 19.3 million inhabitants (as of 2020). Its capital and largest city is Bucharest. Other major urban areas include Cluj-Napoca, Timișoara, Iași, Constanța, Craiova, Brașov, and Galați.</p>
+            <p style="font-size: 50px;"> </p>
         </div>
         </div>
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
-            <p>test2</p>
+            <p style="font-size: 100px;">test2</p>
         </div>
-        <div id="Tokyo3" class="tabcontent" style="opacity: 1; padding: 5px 10px; background-color: white; animation: none;">
-            <p>test3</p>
+        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: white; animation: none;">
+        <div id="tokyobox2" style="margin-left: 350px; margin-right: 350px;">
+            <p style="font-size: 50px;"> </p>
+            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Is my ideology welcome here?</p>
+            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
+            <spacer height=50px> </spacer>
+            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
+            <p style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 7 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
+            
+
+
+
 
             <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real country.</p>
+        </div>
         </div>
         <div id="London" class="tabcontent" style="background-color: white;">
             <p style="font-family: SF; font-size: 45px;">The Republic</p>
@@ -184,6 +201,11 @@
             ?>
             <embed style="display: none; overflow: auto;" id="lawspdf" src="." height=1500px width=100% type="application/pdf"></iframe>
         </div>
+
+		<div id="Bucharest" class="tabcontent" style="background-color: white;">
+			<p>NLA</p>	
+			<p> </p>
+		</div>
     </body>
     <script>
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
