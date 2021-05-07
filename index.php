@@ -163,7 +163,14 @@
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 7 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
             <p class="info" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Am I welcome here?</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Absolutely, we try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
+            <p style="font-size: 70px;"> </p>
+            <div class="container">
+                <img src="gradient.png" width=100% style="border-radius: 25px;">
+                <p style="font-family: SF; font-size: 25px; background-color: white; color: black;" class="centered">Sounds good? Join the discord server</p>
+                <button class="color-change" onclick="discordGo();" style="font-family: SF2;">Join</button>
 
+            </div>
+            <p style="font-size: 70px;"> </p>
 
             <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
         </div>
@@ -202,6 +209,7 @@
         </div>
 
 		<div id="Bucharest" class="tabcontent" style="background-color: white;">
+            <div id="partybox" style="margin-left: 250px; margin-right: 250px;">
             <img src=nla.png height=100px>
 			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">NLA</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The National Liberal Alliance will
@@ -212,7 +220,8 @@
             </p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Classical Liberal, LibRight, Right-wing</p>
             <a href="https://drive.google.com/file/d/1IM4vL-LRqBeSqDmvLwLk14is-WmX-tqJ/view?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
-		</div>
+            </div>
+        </div>
     </body>
     <script>
         console.log('website started');
@@ -223,6 +232,8 @@
                 document.getElementById("tokyobox").style.marginRight = "50px";
                 document.getElementById("tokyobox2").style.marginLeft = "50px";
                 document.getElementById("tokyobox2").style.marginRight = "50px";
+                document.getElementById("partybox").style.marginLeft = "50px";
+                document.getElementById("partybox").style.marginRight = "50px";
                 tabcontent = document.getElementsByClassName("info");
                 for (i = 0; i < tabcontent.length; i++) {
                     tabcontent[i].style.fontSize = "20px";
@@ -232,7 +243,10 @@
                     tabcontent2[i].style.fontSize = "30px";
                 }
             }
-        }      
+        }
+        function discordGo(){
+            window.location.href="https://discord.gg/Q5356NPfxd";
+        }
         function otherTokyos(){
             document.getElementById('Tokyo2').style.display = "block";
             document.getElementById('Tokyo3').style.display = "block";
