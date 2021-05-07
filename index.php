@@ -166,7 +166,7 @@
 
 
 
-            <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real country.</p>
+            <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
         </div>
         </div>
         <div id="London" class="tabcontent" style="background-color: white;">
@@ -209,8 +209,10 @@
     </body>
     <script>
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-            document.getElementById("tokyobox").style.marginLeft = "0";
-            document.getElementById("tokyobox").style.marginRight = "0";
+            document.getElementById("tokyobox").style.marginLeft = "10";
+            document.getElementById("tokyobox").style.marginRight = "10";
+            document.getElementById("tokyobox2").style.marginLeft = "10";
+            document.getElementById("tokyobox2").style.marginRight = "10";
         }
         function otherTokyos(){
             document.getElementById('Tokyo2').style.display = "block";
