@@ -158,7 +158,6 @@
             <p style="font-size: 50px;"> </p>
             <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Is my ideology included?</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
-            <spacer height=50px> </spacer>
             <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 3 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
             <p class="info" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Everyone's welcome!</p>
