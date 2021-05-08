@@ -162,7 +162,7 @@
             <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 3 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
             <p class="info" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Everyone's welcome!</p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Definitely. We try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">We try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
             <p style="font-size: 70px;"> </p>
             <div class="container">
                 <img src="gradient.png" width=100% style="border-radius: 25px;">
