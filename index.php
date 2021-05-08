@@ -172,13 +172,12 @@
             </div>
             <p style="font-size: 70px;"> </p>
 
-            <p style="font-family: SF; font-size: 20px; color: maroon;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
         </div>
         </div>
         <div id="London" class="tabcontent" style="background-color: white;">
             <p style="font-family: SF; font-size: 45px;">The Republic</p>
             <p style="font-family: SF; font-size: 40px;">Official news publication of The Republic political Discord Server</p>
-            
+            <p style="font-family: SF; font-size: 20px;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
             <?php
                 $files = glob('news/*');
                 usort($files, function($a, $b) {
@@ -196,6 +195,7 @@
         <div id="Paris" class="tabcontent" style="background-color: white;">
             <p style="font-family: SF; font-size: 45px;">The Republic</p>
             <p style="font-family: SF; font-size: 40px;">Official Monitor of Laws currently acting in the republic</p>
+            <p style="font-family: SF; font-size: 20px;">Disclaimer: Every document on this page is purely fictional and has no legal power in any country, any mention of a real country is purely coincidental and is in no way intended to reference a real entity.</p>
             <?php
                 $files = glob('laws/*');
                 foreach($files as $file){
