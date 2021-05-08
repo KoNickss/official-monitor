@@ -218,7 +218,7 @@
                 freedoms, national identity and
                 unity of the Romanian people.
             </p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: National Liberalism, Right-Wing Progressivism, Economic Liberalism, Reformism, Liberal Militarism, Patriotism</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: National Liberalism, Right-Wing Progressivism, Economic Liberalism, Reformism, Patriotism</p>
             <a href="https://drive.google.com/file/d/1IM4vL-LRqBeSqDmvLwLk14is-WmX-tqJ/view?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
             </div>
         </div>
