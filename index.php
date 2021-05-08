@@ -134,12 +134,12 @@
             <img src="logo.png" style="height: 100px;"> <p style="font-family: Md; font-size: 25px;">The Republic's Official Monitor</p>
             <p style="font-size: 50px;"></p>
             <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">About us</p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by parlament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by Parliament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
             
             <p style="font-size: 50px;"> </p>
             <div class="container">
                 <img src="justice.png" width=100%>
-                <p style="font-family: SF; font-size: 25px; background-color: black; color: white;" class="centered">Help fight corruption. Make an informed choice when voting. Find party info below.</p>
+                <p style="font-family: SF; font-size: 25px; background-color: black; color: white;" class="centered">Make an informed choice when voting. Find party info below.</p>
                 <button class="color-change" onclick="openCity(event, 'Bucharest'); openSmall()" style="font-family: SF2;">Party Info</button>
 
             </div>
@@ -160,13 +160,13 @@
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
             <spacer height=50px> </spacer>
             <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">How can I create a party?</p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 7 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
-            <p class="info" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Am I welcome here?</p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Absolutely, we try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">To create a party, gather up 3 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
+            <p class="info" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">Everyone's welcome!</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Definitely. We try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
             <p style="font-size: 70px;"> </p>
             <div class="container">
                 <img src="gradient.png" width=100% style="border-radius: 25px;">
-                <p style="font-family: SF; font-size: 25px; background-color: white; color: black;" class="centered">Sounds good? Join the discord server</p>
+                <p style="font-family: SF; font-size: 25px; background-color: white; color: black;" class="centered">Join our Discord server!</p>
                 <button class="color-change" onclick="discordGo();" style="font-family: SF2;">Join</button>
 
             </div>
@@ -218,7 +218,7 @@
                 freedoms, national identity and
                 unity of the Romanian people.
             </p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Classical Liberal, LibRight, Right-wing</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: National Liberalism, Right-Wing Progressivism, Economic Liberalism, Reformism, Liberal Militarism, Patriotism</p>
             <a href="https://drive.google.com/file/d/1IM4vL-LRqBeSqDmvLwLk14is-WmX-tqJ/view?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
             </div>
         </div>
