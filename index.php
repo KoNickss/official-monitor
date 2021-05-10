@@ -208,9 +208,9 @@
         </div>
 
 		<div id="Bucharest" class="tabcontent" style="background-color: white;">
-            <div id="partybox" style="margin-left: 250px; margin-right: 250px;">
+            <div id="partybox" style="margin-left: 150px; margin-right: 150px;">
             <img src=nla.png height=100px>
-			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">NLA</p>
+			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: none; font-weight: bold;">National Liberal Alliance</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The National Liberal Alliance will
                 pursue classical-liberal
                 policy, based on individual
