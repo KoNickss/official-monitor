@@ -123,7 +123,7 @@
         }
     </style>
     <title>Official Monitor</title>
-	<body id="body" style="scroll-behavior: smooth;" onscroll="SmoothScroll();">
+	<body id="body" style="scroll-behavior: smooth;">
         <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;" src="logo.png">Home</button>
             <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;">News</button>
