@@ -221,13 +221,13 @@
             <div id="partybox" style="margin-left: 150px; margin-right: 150px;">
             <img src=nla.png height=100px>
 			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: none; font-weight: bold;">National Libertarian Alliance</p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The National Liberal Alliance will
-                pursue classical-liberal
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The National Libertarian Alliance will
+                pursue classical-liberal and libertarian 
                 policy, based on individual
                 freedoms, national identity and
                 unity of the Romanian people.
             </p>
-            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: National Liberalism, Right-Wing Progressivism, Economic Liberalism, Reformism, Patriotism</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Classical Liberalism, Right-Wing Progressivism, Economic Liberalism, Reformism, Libertarianism.</p>
             <a href="https://drive.google.com/file/d/1IM4vL-LRqBeSqDmvLwLk14is-WmX-tqJ/view?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
             </div>
         </div>
