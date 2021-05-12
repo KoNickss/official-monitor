@@ -123,7 +123,7 @@
         }
     </style>
     <title>Official Monitor</title>
-	<body id="body" onload="mobileDetect()" style="scroll-behavior: smooth;">
+	<body id="body" style="scroll-behavior: smooth;" onscroll="SmoothScroll();">
         <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'Tokyo'); openBig(); otherTokyos();" id="default" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;" src="logo.png">Home</button>
             <button class="tablinks" onclick="openCity(event, 'London'); openSmall();" style="font-family: SF2; font-size: 30px; color: white; font-weight: 400;">News</button>
@@ -133,7 +133,7 @@
           
         <!-- Tab content -->
         <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none; filter: blur(0.6px);">
-        <div id="tokyobox" style="margin-left: 400px; margin-right: 400px;">
+        <div id="tokyobox" style="width: 950px; margin-left: auto; margin-right: auto;">
             
             <!-- <p style="font-family: Md; font-size: 27px;">The Republic's Official Monitor</p> -->
 			<img src="logo.png" style="height: 100px;"> 
@@ -161,7 +161,7 @@
             <p style="font-size: 150px;">test2</p>
         </div>
         <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none; filter: blur(0.6px);">
-        <div id="tokyobox2" style="margin-left: 400px; margin-right: 400px;">
+        <div id="tokyobox2" style="width: 950px; margin-left: auto; margin-right: auto;">
             <p style="font-size: 40px;"> </p>
             <p class="infot" style="font-family: SF; font-size: 40px; text-decoration: none; font-weight: bold;">Is my ideology included?</p>
             <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
@@ -234,25 +234,6 @@
     </body>
     <script>
         console.log('website started');
-        function mobileDetect(){
-            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-                console.log('mobile detected');
-                document.getElementById("tokyobox").style.marginLeft = "50px";
-                document.getElementById("tokyobox").style.marginRight = "50px";
-                document.getElementById("tokyobox2").style.marginLeft = "50px";
-                document.getElementById("tokyobox2").style.marginRight = "50px";
-                document.getElementById("partybox").style.marginLeft = "50px";
-                document.getElementById("partybox").style.marginRight = "50px";
-                tabcontent = document.getElementsByClassName("info");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.fontSize = "20px";
-                }
-                tabcontent2 = document.getElementsByClassName("infot");
-                for (i = 0; i < tabcontent2.length; i++) {
-                    tabcontent2[i].style.fontSize = "30px";
-                }
-            }
-        }
         function discordGo(){
             window.location.href="https://discord.gg/Q5356NPfxd";
         }
