@@ -132,7 +132,7 @@
         </div>
           
         <!-- Tab content -->
-        <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none; filter: blur(0.6px);">
+        <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;">
         <div id="tokyobox" style="width: 950px; margin-left: auto; margin-right: auto;">
             
             <!-- <p style="font-family: Md; font-size: 27px;">The Republic's Official Monitor</p> -->
@@ -160,7 +160,7 @@
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
             <p style="font-size: 150px;">test2</p>
         </div>
-        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none; filter: blur(0.6px);">
+        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;">
         <div id="tokyobox2" style="width: 950px; margin-left: auto; margin-right: auto;">
             <p style="font-size: 40px;"> </p>
             <p class="infot" style="font-family: SF; font-size: 40px; text-decoration: none; font-weight: bold;">Is my ideology included?</p>
