@@ -244,6 +244,15 @@
             </p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Classical Liberalism, Right-Wing Progressivism, Economic Liberalism, Reformism, Libertarianism.</p>
             <a href="https://drive.google.com/file/d/1IM4vL-LRqBeSqDmvLwLk14is-WmX-tqJ/view?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
+			<p class=spacer>|</p>
+			<img src=rcp.png height=100px>
+			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: none; font-weight: bold;">Romanian Conservative Party</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The Romanian Conservative Party
+            </p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The Romanian Conservative Party will preserve our national identity whilst moving forward in the 21st century, it is based on our common cultural heritage and it will defend all of our citizen's interest.</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Romanian Patriotism, National Conservatism, Corporatism, Cultural Conservatism</p>
+            <a href="https://docs.google.com/document/d/13Ke0RAlUSFlE7H9xEXeVWCm416nmQPtmKKUHyNrgdtU/edit?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
+
             </div>
         </div>
     </body>
