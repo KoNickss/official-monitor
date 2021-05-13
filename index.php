@@ -158,7 +158,7 @@
         </div>
         </div>
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
-            <p style="font-size: 150px;">test2</p>
+            <p style="font-size: 350px;">test2</p>
         </div>
         <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;">
         <div id="tokyobox2" style="width: 950px; margin-left: auto; margin-right: auto;">
