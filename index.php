@@ -8,6 +8,17 @@
   			background-attachment: fixed;
   			background-size: cover;
 		}
+        .glass{
+            border: 2px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            color: white;
+            padding: 2px 18px;
+            backdrop-filter: blur(30px);
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 		.spacer{
 			color: white;
 			font-size: 30px;
@@ -145,7 +156,9 @@
             <p style="font-size: 40px;"> </p>
             <div class="container">
                 <img src="justice.png" width=100% style="border-radius: 27px;">
-                <p style="font-family: SF; font-size: 20px; background-color: black; color: white;" class="centered">Make an informed choice when voting. Find party info below.</p>
+                <div class=glass>
+                <p style="font-family: SF; font-size: 20px;">Make an informed choice when voting. Find party info below.</p>
+                </div>
                 <button class="color-change" onclick="openCity(event, 'Bucharest'); openSmall()" style="font-family: SF2;">Party Info</button>
 
             </div>
@@ -174,8 +187,10 @@
 			<p class="spacer">|</p>
             <p style="font-size: 70px;"> </p>
             <div class="container">
-                <img src="gradient.png" width=100% style="border-radius: 27px;">
-                <p style="font-family: SF; font-size: 27px; background-color: white; color: black;" class="centered">Join our Discord server!</p>
+                <img src="color.png" width=100% style="border-radius: 27px;">
+                <div class=glass>
+                <p style="font-family: SF; font-size: 27px;">Join our Discord server!</p>
+                </div>
                 <button class="color-change" onclick="discordGo();" style="font-family: SF2;">Join</button>
 
             </div>
