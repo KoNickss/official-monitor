@@ -250,6 +250,11 @@
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The Romanian Conservative Party will preserve our national identity whilst moving forward in the 21st century, it is based on our common cultural heritage and it will defend all of our citizen's interest.</p>
             <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Romanian Patriotism, National Conservatism, Corporatism, Cultural Conservatism</p>
             <a href="https://docs.google.com/document/d/1oqsSXpa2zYKr1XPJWMATtmR8zaYZYXnfvs9tdv5ESeA/edit?usp=sharing" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
+			<img src=sdu.png height=100px>
+			<p class="infot" style="font-family: SF; font-size: 50px; text-decoration: none; font-weight: bold;">Social Democratic Union</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">The Social Democratic Union will fight for maintaining equality between classes and helping the poor as well as implementing social welfare and safety nets in our economy, a mixed economy is planned as a goal.</p>
+            <p class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400;">Ideology: Social Democracy, Civil Libertarianism, Eurofederalism, Economic Liberalism, Environmentalism</p>
+            <a href="https://drive.google.com/file/d/1ZN2ApswfU0nnAkcmsILnW8EiCxR4V7Z0/view" class="info" style="font-family: SF; font-size: 30px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 400; color:black; text-decoration: none;">[Manifesto]</a>
 
             </div>
         </div>
