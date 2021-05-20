@@ -12,7 +12,7 @@
         </div>
           
         <!-- Tab content -->
-        <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;">
+        <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;" width=100%>
         <div id="tokyobox" style="max-width: 950px; margin-left: auto; margin-right: auto;">
             
             <!-- <p style="font-family: Md; font-size: 27px;">The Republic's Official Monitor</p> -->
@@ -42,7 +42,7 @@
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
             <p style="font-size: 350px;">test2</p>
         </div>
-        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff;" data-aos="fade-down">
+        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff;" data-aos="fade-down" width=100%>
         <div id="tokyobox2" style="max-width: 950px; margin-left: auto; margin-right: auto;">
             <p style="font-size: 40px;"> </p>
 			<div data-aos="fade-left" class="card">
@@ -177,14 +177,7 @@
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
         }
-		var tok3 = document.getElementById("Tokyo2");
-  		var top = tok3.getBoundingClientRect().top;
-  		var bottom = tok3.getBoundingClientRect().bottom;
-
-  		if (top <= window.innerHeight && bottom >= 0) {
-     		console.log("Reach Div End");
-			document.getElementById("Tokyo3").display = block;
-  		}
+		
         document.getElementById("default").click();
         <?php
             $files = glob('laws/*');
