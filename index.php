@@ -1,138 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <style>
-		body {
-			background-image: url('0007.jpg');
-			margin: 50px;
-  			background-repeat: no-repeat;
-  			background-attachment: fixed;
-  			background-size: cover;
-		}
-        .glass{
-            border: 2px solid rgba(255, 255, 255, 0.05);
-            border-radius: 24px;
-            color: white;
-            padding: 2px 18px;
-            backdrop-filter: blur(30px);
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-		.spacer{
-			color: white;
-			font-size: 30px;
-		}
-        .container {
-        position: relative;
-        text-align: center;
-        color: white;
-        }
-        .centered {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        }
-        .tab {
-        overflow: hidden;
-        background-color: #505050;
-        }
-        @font-face {
-
-            font-family: 'SF';
-            src: url('manrope.ttf');
-
-        }
-        @font-face {
-
-        font-family: 'SF2';
-        src: url('gidole.ttf');
-
-        }
-        @font-face {
-
-        font-family: 'Md';
-        src: url('carta.ttf');
-
-        }
-        /* Style the buttons that are used to open the tab content */
-        .tab button {
-            background-color: inherit;
-            float: none;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-        }
-        /* Change background color of buttons on hover */
-        .tab button:hover {
-        background-color: #ddd;
-        }
-
-        /* Create an active/current tablink class */
-        .tab button.active {
-		background-color: #000000;
-        }
-
-        /* Style the tab content */
-        .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
-		border-top: none;
-		opacity: .8;
-        }
-        .tabcontent {
-        animation: fadeEffect 1s; /* Fading effect takes 1 second */
-        }
-        .hometrt {
-            animation: hometr 0.5s;
-        }
-        .lawstrt {
-            animation: lawstr 0.5s;
-        }
-        .color-change {
-        border-radius: 5px;
-        font-size: 20px;
-        padding: 14px 80px;
-        cursor: pointer;
-        color: #fff;
-        background-color: #00A6FF;
-        font-size: 1.5rem;
-        font-family: 'Roboto';
-        font-weight: 100;
-        border: 1px solid #fff;
-        box-shadow: 2px 2px 5px #AFE9FF;
-        transition-duration: 0.5s;
-        -webkit-transition-duration: 0.5s;
-        -moz-transition-duration: 0.5s;
-        position: absolute;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        }
-
-        .color-change:hover {
-        color: #006398;
-        border: 1px solid #006398;
-        box-shadow: 2px 2px 20px #AFE9FF;
-        }
-        /* Go from zero to full opacity */
-        @keyframes fadeEffect {
-        from {opacity: 0;}
-        to {opacity: .8;}
-        }
-        @keyframs hometr {
-            from {margin: 30px;}
-            to {margin: 0px;}
-        }
-        @keyframs lawstr {
-            from {margin: 0px;}
-            to {margin: 30px;}
-        }
-    </style>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <title>Official Monitor</title>
 	<body id="body" style="scroll-behavior: smooth;">
         <div class="tab">
@@ -144,13 +13,13 @@
           
         <!-- Tab content -->
         <div id="Tokyo" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;">
-        <div id="tokyobox" style="width: 950px; margin-left: auto; margin-right: auto;">
+        <div id="tokyobox" style="max-width: 950px; margin-left: auto; margin-right: auto;">
             
             <!-- <p style="font-family: Md; font-size: 27px;">The Republic's Official Monitor</p> -->
 			<img src="logo.png" style="height: 100px;"> 
             <p style="font-size: 50px;"></p>
-            <p class="infot" style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">About us</p>
-            <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by Parliament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
+            <p style="font-family: SF; font-size: 50px; text-decoration: underline; font-weight: bold;">About us</p>
+            <p class="info">We are a discord political simulation server made of politics enthusiasts. You can find laws passed by Parliament in the laws section, those laws were passed after debating, voting, making up comitees, everything a real republic would host. We try to keep our simulation as fun and engaging as possible, to do this we divide people into parties with specific political views. No party suits you? Make your own, if you got enough support we'll make it happen</p>
             
 			<p class="spacer">|</p>
             <p style="font-size: 40px;"> </p>
@@ -164,26 +33,38 @@
             </div>
             <p style="font-size: 40px;"> </p>
 			<p class="spacer">|</p>
-            <p class="infot" style="font-family: SF; font-size: 40px; text-decoration: none; font-weight: bold;">What country do we simulate?</p>
-            <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">Romania. We chose Romania because of it's interesting international relationships and geographical location as well as the many expansion opportunities in infrastructure allowing the simulation to progress.</p>
-            <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe. It shares land borders with Bulgaria to the south, Ukraine to the north, Hungary to the west, Serbia to the southwest, and Moldova to the east and has its opening to the Black Sea. It has a predominantly temperate-continental climate. With a total area of 238,397 sq km (92,046 sq mi), Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union, having approximately 19.3 million inhabitants (as of 2020). Its capital and largest city is Bucharest. Other major urban areas include Cluj-Napoca, Timișoara, Iași, Constanța, Craiova, Brașov, and Galați.</p>
+            <p class="infot">What country do we simulate?</p>
+            <p class="info">Romania. We chose Romania because of it's interesting international relationships and geographical location as well as the many expansion opportunities in infrastructure allowing the simulation to progress.</p>
+            <p class="info">Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe. It shares land borders with Bulgaria to the south, Ukraine to the north, Hungary to the west, Serbia to the southwest, and Moldova to the east and has its opening to the Black Sea. It has a predominantly temperate-continental climate. With a total area of 238,397 sq km (92,046 sq mi), Romania is the twelfth-largest country in Europe and the sixth-most populous member state of the European Union, having approximately 19.3 million inhabitants (as of 2020). Its capital and largest city is Bucharest. Other major urban areas include Cluj-Napoca, Timișoara, Iași, Constanța, Craiova, Brașov, and Galați.</p>
             <p style="font-size: 40px;"> </p>
         </div>
         </div>
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
             <p style="font-size: 350px;">test2</p>
         </div>
-        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff; animation: none;">
-        <div id="tokyobox2" style="width: 950px; margin-left: auto; margin-right: auto;">
+        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff;" data-aos="fade-down">
+        <div id="tokyobox2" style="max-width: 950px; margin-left: auto; margin-right: auto;">
             <p style="font-size: 40px;"> </p>
-            <p class="infot" style="font-family: SF; font-size: 40px; text-decoration: none; font-weight: bold;">Is my ideology included?</p>
-            <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
+			<div data-aos="fade-left" class="card">
+			<img class="cardlogo" src=ismy.jpg>
+			<z>
+            <p class="infot">Is my political ideology allowed?</p>
+            <p class="info">Yes. We try to widen our political debates as much as possible and let as many perspectives and ideas in as possible. Just try not to be a dick and bring ideas to the table.</p>
+			</div>
 			<p class="spacer">|</p>
-            <p class="infot" style="font-family: SF; font-size: 40px; text-decoration: none; font-weight: bold;">How can I create a party?</p>
-            <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">To create a party, gather up 3 more people willing to be part of the party, write up a manifesto paragraph containing your objectives as well as political alignments, create a logo, create a party name and submit a chart of your party on the political compass.</p>
+			<div data-aos="fade-right"class="card">
+			<img class="cardlogo" src=polpar.jpg>
+			<z>
+            <p class="infot">How can I create a party?</p>
+            <p class="info">To create a party, gather up 3 like-minded individuals, write up a manifesto paragraph containing your objectives, create a logo, and submit a chart of your party on the political compass.</p>
+			</div>
 			<p class="spacer">|</p>
-            <p class="info" style="font-family: SF; font-size: 40px; text-decoration: none; font-weight: bold;">Everyone's welcome!</p>
-            <p class="info" style="font-family: SF; font-size: 27px; margin-top: 0.5em; margin-bottom: 0em; font-weight: 550;">We try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
+			<div data-aos="fade-left" class="card">
+			<img class="cardlogo" src=inclus.jpg>
+			<z>
+            <p class="infot">Everyone's welcome!</p>
+            <p class="info">We try to be as inclusive as possible and thus we welcome everyone. While we do tolerate sensitive jokes we do NOT tolerate harrasement such as excessive bullying, discrimination based on identity, death threats or suicide pushing.</p>
+			</div>
 			<p class="spacer">|</p>
             <p style="font-size: 70px;"> </p>
             <div class="container">
@@ -259,6 +140,12 @@
 
             </div>
         </div>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  		<script>
+			AOS.init({
+				duration: 1000
+			});
+  		</script>
     </body>
     <script>
         console.log('website started');
@@ -290,6 +177,14 @@
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
         }
+		var tok3 = document.getElementById("Tokyo2");
+  		var top = tok3.getBoundingClientRect().top;
+  		var bottom = tok3.getBoundingClientRect().bottom;
+
+  		if (top <= window.innerHeight && bottom >= 0) {
+     		console.log("Reach Div End");
+			document.getElementById("Tokyo3").display = block;
+  		}
         document.getElementById("default").click();
         <?php
             $files = glob('laws/*');
