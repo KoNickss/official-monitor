@@ -42,7 +42,7 @@
         <div id="Tokyo2" class="tabcontent" style="opacity: 0; padding: 5px 10px; background-color: white; animation: none;">
             <p style="font-size: 350px;">test2</p>
         </div>
-        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff;" data-aos="fade-down" width=100%>
+        <div id="Tokyo3" class="tabcontent" style="opacity: 1; background-color: #ffffff;" data-aos="zoom-in" width=100%>
         <div id="tokyobox2" style="max-width: 950px; margin-left: auto; margin-right: auto;">
             <p style="font-size: 40px;"> </p>
 			<div data-aos="fade-left" class="card">
@@ -67,7 +67,7 @@
 			</div>
 			<p class="spacer">|</p>
             <p style="font-size: 70px;"> </p>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="500">
                 <img src="color.png" width=100% style="border-radius: 27px;">
                 <div class=glass>
                 <p style="font-family: SF; font-size: 27px;">Join our Discord server!</p>
@@ -148,6 +148,17 @@
   		</script>
     </body>
     <script>
+		if (navigator.userAgent.match(/Android/i) ||
+		  navigator.userAgent.match(/webOS/i) ||
+		  navigator.userAgent.match(/iPhone/i) ||
+		  navigator.userAgent.match(/iPad/i) ||
+		  navigator.userAgent.match(/iPod/i) ||
+		  navigator.userAgent.match(/BlackBerry/) ||
+		  navigator.userAgent.match(/Windows Phone/i) ||
+		  navigator.userAgent.match(/ZuneWP7/i)
+		) {
+			document.getElementsByClassName("card").style.display = block;		
+		}
         console.log('website started');
         function discordGo(){
             window.location.href="https://discord.gg/Q5356NPfxd";
