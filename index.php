@@ -157,7 +157,7 @@
 		  navigator.userAgent.match(/Windows Phone/i) ||
 		  navigator.userAgent.match(/ZuneWP7/i)
 		) {
-			document.getElementsByClassName("card").style.display = block;		
+			document.getElementById("Tokyo2").style.display = none;		
 		}
         console.log('website started');
         function discordGo(){
